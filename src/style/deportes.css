@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.panel-deportes {
+  width: 100%;
+  max-width: 535px;
+  margin:  auto;
+  border: 3px solid #002e5d;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.panel-header-tab {
+  background-color: #002e5d;
+  color: #ffcc00;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.panel-body {
+  background-color: #ffffff;
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+.decorativo-asterisco {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  color: #7a7a9a;
+  font-family: serif;
+  font-size: 24px;
+}
+
+.sub-decorativo {
+  top: auto;
+  bottom: 15px;
+}
+
+.articulo-deportivo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marco-imagen {
+  border: 1px solid #bcbcbc;
+  padding: 1px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 465px; /* Ancho ajustado para centrar las fotos en el panel */
+  box-sizing: border-box;
+}
+
+.imagen-retro {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-periodico {
+  margin-top: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #000000;
+  text-align: justify; /* Justificado idéntico al periódico original */
+  width: 100%;
+  max-width: 465px;
+  padding: 0 2px;
+  box-sizing: border-box;
+}

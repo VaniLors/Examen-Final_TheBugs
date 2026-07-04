@@ -1,9 +1,10 @@
 
 import { useState } from 'react'
 import './App.css'
-Actualizacion
+import Docentes from './pages/Docentes'
 import Actualizacion from './pages/Actualizacion'
 import Login from './pages/Login'
+
 
 
 
@@ -12,6 +13,12 @@ import Historia from "./pages/Historia";
 
 function App() {
   return (
+    <>
+
+      <Docentes />
+    <Actualizacion />
+    <Login />
+
 
       <>
       <Historia />
@@ -21,17 +28,6 @@ function App() {
 
 export default App;
 
-    <>
-Actualizacion
-    <Actualizacion />
-    <Login />
-    dev
-    </>
-      
-  )
-} 
-
-export default App;
-                 
-
-
+ 
+   
+              

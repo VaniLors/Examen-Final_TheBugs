@@ -1,0 +1,116 @@
+/* Contenedor Principal */
+.promociones-container {
+  background-color: #1a1a1a; /* Fondo oscuro fiel al estilo clásico */
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezado del Panel */
+.promociones-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.promociones-header h1 {
+  font-size: 2.5rem;
+  color: #f39c12; /* Dorado/Amarillo institucional */
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.decor-line {
+  height: 4px;
+  width: 100px;
+  background-color: #f39c12;
+  margin: 0 auto 15px auto;
+  border-radius: 2px;
+}
+
+.promociones-header .subtitle {
+  font-size: 1.2rem;
+  color: #cccccc;
+  font-style: italic;
+}
+
+/* Grid de Promociones (Alineación perfecta) */
+.promociones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Tarjeta de cada Promoción */
+.promocion-card {
+  background-color: #2c3e50; /* Color azulino/grisáceo de fondo de bloque */
+  border: 2px solid #34495e;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.promocion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(243, 156, 18, 0.3);
+  border-color: #f39c12;
+}
+
+/* Contenedor de la Imagen */
+.image-wrapper {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Hace que encajen perfectamente sin deformarse */
+  transition: transform 0.5s ease;
+}
+
+.promocion-card:hover .image-wrapper img {
+  transform: scale(1.05);
+}
+
+/* Información de la tarjeta */
+.promo-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.promo-info h3 {
+  font-size: 1.15rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.promo-year {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #f39c12;
+  font-weight: bold;
+  background-color: rgba(243, 156, 18, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+/* Pie de página interno */
+.promociones-footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #777777;
+  font-size: 0.85rem;
+  border-top: 1px solid #2c3e50;
+  padding-top: 20px;
+}

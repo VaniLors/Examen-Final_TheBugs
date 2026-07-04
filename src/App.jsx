@@ -11,6 +11,7 @@ import React from "react";
 import Historia from "./pages/Historia";
 import Contacto from "./pages/Contacto";
 import Mapasatelital from './pages/mapasatelital'
+import Promociones from "./pages/promociones";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+    <Promociones/>
     <NoticiaDeOro />
      <Deportes />
       <Contacto />

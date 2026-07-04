@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/deportes.css';
+import '../styles/deportes.css';
 
 import fotoBasquet from '../imges-deportes/imagen1.png';
 import fotoFutbol from '../imges-deportes/imagen2.png';

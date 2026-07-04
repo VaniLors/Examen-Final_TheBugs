@@ -3,6 +3,8 @@ import Bandas from "./pages/Bandas";
 import Danzas from "./pages/Danzas";
 import { useState } from 'react'
 import './App.css'
+
+import Deportes from './pages/deportes'
 import Docentes from './pages/Docentes'
 import Actualizacion from './pages/Actualizacion'
 import Login from './pages/Login'
@@ -15,6 +17,10 @@ import Mapasatelital from './pages/mapasatelital'
 function App() {
   const [count, setCount] = useState(0)
 
+  return (
+    <>
+     <Deportes />
+    </>
 
 
 function App() {
@@ -38,5 +44,3 @@ function App() {
 }
 
 export default App;
-     
-

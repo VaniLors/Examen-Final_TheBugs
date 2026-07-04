@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import './App.css'
 Actualizacion
@@ -5,10 +6,21 @@ import Actualizacion from './pages/Actualizacion'
 import Login from './pages/Login'
 
 
-function App() {
-  const [count, setCount] = useState(0)
 
+import React from "react";
+import Historia from "./pages/Historia";
+
+function App() {
   return (
+
+      <>
+      <Historia />
+      </>
+  );
+}
+
+export default App;
+
     <>
 Actualizacion
     <Actualizacion />
@@ -21,4 +33,5 @@ Actualizacion
 
 export default App;
                  
+
 

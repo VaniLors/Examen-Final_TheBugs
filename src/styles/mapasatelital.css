@@ -1,0 +1,54 @@
+.contenedor-panel-mapa {
+  width: 100%;
+  max-width: 760px;
+  background-color: #ffffff;
+  border: 4px double #1a3644;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  margin: 10px auto;
+}
+
+.barra-titulo-satelital {
+  background-color: #0d232f;
+  color: #ffb703;
+  padding: 8px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #1a3644;
+}
+
+.asterisco-derecha {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.contenido-panel-satelital {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.texto-colegio {
+  color: #f4d03f;
+  font-size: 22px;
+  margin: 0 0 12px 0;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.texto-direccion {
+  color: #f4d03f;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.recuadro-mapa-leaflet {
+  width: 100%;
+  height: 450px; 
+  border: 1px solid #cccccc;
+  background-color: #e5e5e5;
+}

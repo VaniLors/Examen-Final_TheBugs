@@ -1,8 +1,8 @@
+
     import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
     import "./App.css";
     import Sidebar from "./Components/Sidebar";
     import Home from "./Components/Home";   // <-- esta es la ruta que necesitás
-
     import Bandas from "./pages/Bandas";
     import Danzas from "./pages/Danzas";
     import Deportes from "./pages/Deportes";
@@ -48,8 +48,6 @@ import Header from "./Components/Header";
     }
 
     export default App;
-
-
 
 
 

@@ -8,6 +8,7 @@ import Actualizacion from './pages/Actualizacion'
 import Login from './pages/Login'
 import React from "react";
 import Historia from "./pages/Historia";
+import Contacto from "./pages/Contacto";
 
 import Mapasatelital from './pages/mapasatelital'
 
@@ -18,6 +19,12 @@ function App() {
 
 function App() {
   return (
+
+      <>
+      <Contacto />
+      </>
+  );
+
         <Bandas/>
         <Danzas/>
         <Historia />
@@ -27,6 +34,7 @@ function App() {
     <Login />
       
   )
+
 }
 
 export default App;

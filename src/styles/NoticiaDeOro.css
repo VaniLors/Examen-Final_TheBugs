@@ -1,0 +1,55 @@
+
+.panel {
+  width: 420px;
+  min-height: 900px;
+  margin: 30px auto;
+  background: white;
+  border: 2px solid #d8d8d8;
+  box-shadow: 0 5px 20px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contenido {
+  width: 90%;
+  text-align: center;
+  color: #d6b24a;
+  padding: 50px 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 22px;
+  font-style: italic;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.seccion {
+  margin-top: 45px;
+}
+
+p {
+  margin: 6px 0;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.destacado {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.img-oro {
+  width: 270px; 
+
+}

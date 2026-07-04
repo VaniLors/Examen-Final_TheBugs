@@ -1,0 +1,56 @@
+/* ===== Header con foto (tigre.png) ===== */
+
+.site-header {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  border-bottom: 3px solid #d4a017;
+  flex-shrink: 0; /* que no se achique cuando el layout es flex-column */
+}
+
+.site-header-img {
+  width: 110%;
+  height: 110%;
+  margin: -20px 0 0 -20px;
+  height: 200px;
+
+  object-position: center;
+  display: block;
+}
+
+/* Capa oscura + titulo encima de la foto, para que el texto
+   se lea bien sin importar el brillo de la imagen */
+.site-header-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header-title {
+  margin: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    height: 100px;
+  }
+  .site-header-title {
+    font-size: 18px;
+  }
+}

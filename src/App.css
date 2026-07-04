@@ -1,0 +1,37 @@
+/* ===== Layout general de la app ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* El layout ya no tiene fondo propio: deja ver el fuego
+   que pone el componente Home por detras de todo. */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  background: transparent;
+}
+
+.app-content {
+  flex: 1;
+  padding: 0;
+  overflow-x: hidden;
+
+  /* Fondo blanco semi-opaco para que el texto de las paginas
+     se siga leyendo bien arriba del fuego. Baja el 0.94 si
+     queres que se note mas la llama detras. */
+
+}
+
+/* Responsive: apilar sidebar y contenido en pantallas chicas */
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+}

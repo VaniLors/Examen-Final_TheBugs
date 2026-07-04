@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -28,4 +27,3 @@
     "vite": "^8.1.1"
   }
 }
-

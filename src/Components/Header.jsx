@@ -12,9 +12,6 @@ function Header() {
   return (
     <header className="site-header">
       <img src={tigre} alt="Tigre" className="site-header-img" />
-      <div className="site-header-overlay">
-        <h1 className="site-header-title">CARLOS MEDINACELI</h1>
-      </div>
     </header>
   );
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import '../styles/Historia.css'
+import imagenColegio from '../carlosMedinaceli/carlosMedinaceli.png'
+
 function Historia (){
     return (
         <>
@@ -13,7 +15,7 @@ function Historia (){
         <h1 className="titulo-principal">ANTECEDENTES HISTORICOS</h1>
 
         <div className="contenedor-imagen">
-         <img src="/carlos-medinaceli.png" alt="" />
+         <img src={imagenColegio} alt="Colegio Carlos Medinaceli" />
         </div>
 
         <div className="informacion-colegio">

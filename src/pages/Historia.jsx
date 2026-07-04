@@ -13,7 +13,7 @@ function Historia (){
         <h1 className="titulo-principal">ANTECEDENTES HISTORICOS</h1>
 
         <div className="contenedor-imagen">
-         <img src="../public/carlos-medinaceli.png" alt="" />
+         <img src="/carlos-medinaceli.png" alt="" />
         </div>
 
         <div className="informacion-colegio">

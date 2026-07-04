@@ -2,7 +2,7 @@
     import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
     import "./App.css";
     import Sidebar from "./Components/Sidebar";
-    import Home from "./Components/Home";   // <-- esta es la ruta que necesitás
+    import Home from "./Components/Home";  
     import Bandas from "./pages/Bandas";
     import Danzas from "./pages/Danzas";
     import Deportes from "./pages/Deportes";
@@ -13,6 +13,7 @@
     import Historia from "./pages/Historia";
     import Contacto from "./pages/Contacto";
     import Mapasatelital from "./pages/mapasatelital";
+    import Promociones from "./pages/Promociones";
 import Header from "./Components/Header";
 
     function App() {
@@ -36,6 +37,8 @@ import Header from "./Components/Header";
                   <Route path="/actualizacion" element={<Actualizacion />} />
                   <Route path="/noticias-de-oro" element={<NoticiaDeOro />} />
                   <Route path="/mapa-satelital" element={<Mapasatelital />} />
+                  <Route path="/promociones" element={<Promociones />} />
+
 
                   {/* ruta no encontrada */}
                   <Route path="*" element={<Navigate to="/historia" replace />} />
